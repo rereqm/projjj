@@ -1,0 +1,23 @@
+FROM maven:3.8.5-openjdk-17-slim
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update -qq && \
+    apt-get install -y postgresql-13 && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /var/run/postgresql && chown postgres:postgres /var/run/postgresql
+
+USER postgres
+
+RUN /etc/init.d/postgresql start && \
+    psql --command "CREATE DATABASE spring_lab3_notifications;" && \
+    psql --command "ALTER USER postgres WITH PASSWORD 'postgres';" && \
+    psql --command "GRANT ALL PRIVILEGES ON DATABASE spring_lab3_notifications TO postgres;"
+
+RUN echo "host all all 0.0.0.0/0 md5" >> /etc/postgresql/13/main/pg_hba.conf && \
+    echo "listen_addresses='*'" >> /etc/postgresql/13/main/postgresql.conf
+
+EXPOSE 5432
+
+ENTRYPOINT ["/usr/lib/postgresql/13/bin/postgres", "-D", "/var/lib/postgresql/13/main", "-c", "config_file=/etc/postgresql/13/main/postgresql.conf"]

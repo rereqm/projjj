@@ -1,0 +1,6 @@
+org/example/SimpleTest.class
+org/example/AssertionsTest.class
+org/example/ExceptionTest.class
+org/example/service/UserServiceTest.class
+org/example/LifecycleTest.class
+org/example/service/UserServiceVerifyTest.class

@@ -1,0 +1,12 @@
+org/example/service/AuthServiceTest.class
+org/example/SimpleTest.class
+org/example/AssertionsTest.class
+org/example/service/NotificationServiceExceptionTest.class
+org/example/SpyTest.class
+org/example/service/UserServiceVerifyTest.class
+org/example/service/NotificationServiceTest.class
+org/example/ExceptionTest.class
+org/example/service/UserServiceTest.class
+org/example/LifecycleTest.class
+org/example/controller/UserControllerTest.class
+org/example/controller/NotificationControllerTest.class

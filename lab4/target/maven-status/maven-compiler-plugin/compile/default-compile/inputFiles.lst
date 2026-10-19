@@ -1,0 +1,13 @@
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/service/NotificationService.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/controller/UserController.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/Application.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/service/UserService.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/entity/Notification.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/repository/UserRepository.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/entity/User.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/enums/NotificationStatus.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/dto/UserDto.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/dto/NotificationDto.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/controller/NotificationController.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/repository/NotificationRepository.java
+/home/prom/Desktop/lab/itip/lab4/src/main/java/org/example/model/enums/NotificationChannel.java

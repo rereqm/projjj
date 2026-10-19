@@ -1,0 +1,15 @@
+org/example/model/entity/Notification.class
+org/example/repository/UserRepository.class
+org/example/model/enums/NotificationChannel.class
+org/example/controller/NotificationController.class
+org/example/model/enums/NotificationStatus.class
+org/example/model/dto/NotificationDto$NotificationDtoBuilder.class
+org/example/repository/NotificationRepository.class
+org/example/model/dto/UserDto.class
+org/example/Application.class
+org/example/model/dto/NotificationDto.class
+org/example/service/NotificationService.class
+org/example/model/entity/User.class
+org/example/model/dto/UserDto$UserDtoBuilder.class
+org/example/service/UserService.class
+org/example/controller/UserController.class
